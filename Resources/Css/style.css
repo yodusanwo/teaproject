@@ -1,0 +1,159 @@
+
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  back-ground-color: black;
+  opacity: 0.9;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  width:auto;
+  margin-left: 10px;
+}
+
+.container nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+.container a {
+  color: seashell;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding-top: 75px;
+  flex-direction: column;
+  width:auto;
+}
+
+.topsection {
+  display:flex;
+  width:1200px;
+  height:700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bkgimg1 {
+  background-image: url("../../Resources/Images/img-mission-background.jpg");
+  text-align:center;
+}
+
+.bkgimg2 {
+  background-image: url("../../Resources/Images/img-locations-background.jpg");
+  text-align:center;
+}
+
+.missioncopy {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  background-color: black;
+  width: 1200px;
+  height: auto;
+  color: seashell;
+}
+
+.middlesection{
+  display:flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.missioncopy2 {
+  background-color: black;
+  width: 1000px;
+  text-align:center;
+  color: seashell;
+}
+
+.secondmiddle {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+img {
+  width:300px;
+  height:200px;
+  padding: 15px 10px 0px 10px;
+}
+
+h4 {
+  margin: 10px;
+  text-align: center;
+}
+
+.bottomsection {
+  display:flex;
+  width:1200px;
+  height:500px;
+  justify-content: center;
+  align-items: center;
+  border: 50px solid black;
+}
+
+.boxsection {
+  display:flex;
+}
+
+.box {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color:black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  margin-top:0px;
+}
+
+.box h3, h4 {
+  color: seashell;
+  opacity: 1; !important
+
+}
+
+.bottommiddlesection {
+  display:flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  display:flex;
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-bottom:15px;
+
+}
+.bottomimageheader {
+  display:flex;
+  flex-direction: column;
+}
